@@ -1,0 +1,31 @@
+{
+  "name": "github-actions-demo",
+  "version": "1.0.0",
+  "description": "GitHub actions demo repository",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha || true"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MrHassanMurtaza/github-actions-demo.git"
+  },
+  "keywords": [
+    "Github",
+    "Actions",
+    "Demo"
+  ],
+  "author": "MrHassanMurtaza",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MrHassanMurtaza/github-actions-demo/issues"
+  },
+  "homepage": "https://github.com/MrHassanMurtaza/github-actions-demo#readme",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^6.2.0"
+  }
+}
